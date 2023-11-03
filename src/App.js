@@ -1,15 +1,11 @@
 import React from "react";
 
-import HomePage from "./pages/HomePage";
-import OrderPage from "./pages/OrderPages";
-import SuccessPage from "./pages/SuccessPage";
+import PageContent from "./layout/PageContent";
 
 const App = () => {
   return (
     <>
-      <HomePage />
-      <OrderPage />
-      <SuccessPage />
+      <PageContent />
     </>
   );
 };
