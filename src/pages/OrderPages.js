@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PriceCalculation from "../component/PriceCalculation";
+import Counter from "../component/Counter";
 
 const OrderPage = () => {
   return (
@@ -24,33 +26,71 @@ const OrderPage = () => {
       <input type="checkbox" />
       <input type="checkbox" />
       <input type="checkbox" />
-      <select>
-        <option selected>Hamur Seç</option>
-        <option value="ince">İnce</option>
-        <option value="orta">Orta</option>
-        <option value="kalin">Kalın</option>
-      </select>
+      <PriceCalculation />
       <p>Ek Malzemeler</p>
       <p>En fazla 10 malzeme seçebilirsiniz.</p>
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
-      <input type="checkbox" />
+      <label>
+        <input type="checkbox" />
+        Pepperoni
+      </label>
+      <label>
+        <input type="checkbox" />
+        Sosis
+      </label>
+      <label>
+        <input type="checkbox" />
+        Kanada Jambonu
+      </label>
+      <label>
+        <input type="checkbox" />
+        Tavuk Izgara
+      </label>
+      <label>
+        <input type="checkbox" />
+        Soğan
+      </label>
+      <label>
+        <input type="checkbox" />
+        Domates
+      </label>
+      <label>
+        <input type="checkbox" />
+        Mısır
+      </label>
+      <label>
+        <input type="checkbox" />
+        Sucuk
+      </label>
+      <label>
+        <input type="checkbox" />
+        Jalepeno
+      </label>
+      <label>
+        <input type="checkbox" />
+        Sarımsak
+      </label>
+      <label>
+        <input type="checkbox" />
+        Biber
+      </label>
+      <label>
+        <input type="checkbox" />
+        Sucuk
+      </label>
+      <label>
+        <input type="checkbox" />
+        Ananas
+      </label>
+      <label>
+        <input type="checkbox" />
+        Kabak
+      </label>
       <p>Sipariş Notu</p>
       <input
         type="text"
         placeholder="Siparişine eklemek istediğin bir not var mı?"
       />
+      <Counter />
       <button>SİPARİŞ VER</button>
     </>
   );
