@@ -1,32 +1,40 @@
 import React, { useEffect, useState } from "react";
 
-const PriceCalculation = ({ start = 85.5 }) => {
-  const [adet, setAdet] = useState(1);
+const PriceCalculation = ({
+  boyut,
+  kalinlik,
+  ekMalzeme,
+  start = 85.5,
+  adet = 1,
+}) => {
   const [fiyat, setFiyat] = useState(start);
-  const [kalinlik, setKalinlik] = useState("ince");
-  const [toplamFiyat, setToplamFiyat] = useState(start * fiyat);
+  const [toplamFiyat, setToplamFiyat] = useState(0);
+
+  let ekMalzemeSayisi = ekMalzeme * 5;
 
   useEffect(() => {
-    if (kalinlik === "ince") {
-      setToplamFiyat(fiyat * 0.9);
-    } else if (kalinlik === "kalin") {
-      setToplamFiyat(fiyat * 1.1);
-      console.log(toplamFiyat);
-    } else {
-      setToplamFiyat(fiyat);
+    if (boyut === "küçük" && kalinlik == "ince") {
+      setToplamFiyat((adet * fiyat * 0.6 + ekMalzemeSayisi).toFixed(2));
+    } else if (boyut === "küçük" && kalinlik === "orta") {
+      setToplamFiyat((adet * fiyat * 0.7 + ekMalzemeSayisi).toFixed(2));
+    } else if (boyut === "küçük" && kalinlik === "kalin") {
+      setToplamFiyat((adet * fiyat * 0.8 + ekMalzemeSayisi).toFixed(2));
+    } else if (boyut === "orta" && kalinlik === "ince") {
+      setToplamFiyat((adet * fiyat * 0.9 + ekMalzemeSayisi).toFixed(2));
+    } else if (boyut === "orta" && kalinlik === "orta") {
+      setToplamFiyat((adet * fiyat * 1 + ekMalzemeSayisi).toFixed(2));
+    } else if (boyut === "orta" && kalinlik === "kalin") {
+      setToplamFiyat((adet * fiyat * 1.1 + ekMalzemeSayisi).toFixed(2));
+    } else if (boyut === "büyük" && kalinlik === "ince") {
+      setToplamFiyat((adet * fiyat * 1.2 + ekMalzemeSayisi).toFixed(2));
+    } else if (boyut === "büyük" && kalinlik === "orta") {
+      setToplamFiyat((adet * fiyat * 1.3 + ekMalzemeSayisi).toFixed(2));
+    } else if (boyut === "büyük" && kalinlik === "kalin") {
+      setToplamFiyat((adet * fiyat * 1.4 + ekMalzemeSayisi).toFixed(2));
     }
-  }, [fiyat, kalinlik]);
+  }, [boyut, kalinlik, ekMalzemeSayisi]);
 
-  return (
-    <>
-      <select onChange={(e) => setKalinlik(e.target.value)} value={kalinlik}>
-        <option selected>Hamur Seç</option>
-        <option value={"ince"}>İnce</option>
-        <option value={"orta"}>Orta</option>
-        <option value={"kalin"}>Kalın</option>
-      </select>
-    </>
-  );
+  return <>{toplamFiyat}</>;
 };
 
 export default PriceCalculation;
