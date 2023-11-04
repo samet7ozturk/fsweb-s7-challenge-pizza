@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import PriceCalculation from "../component/PriceCalculation";
-import Counter from "../component/Counter";
 
 const OrderPage = () => {
   const [kalinlik, setKalinlik] = useState("");
@@ -254,7 +253,6 @@ const OrderPage = () => {
       />
 
       <div>
-        Sipariş Toplamı Seçimler Toplam
         <button onClick={handleOrder}>SİPARİŞ VER</button>
       </div>
     </>
