@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as Svg1 } from "../Assets/adv-aseets/icons/1.svg";
-import { ReactComponent as Svg2 } from "../Assets/adv-aseets/icons/2.svg";
+import svg1 from "../Assets/adv-aseets/icons/1.svg";
+import svg2 from "../Assets/adv-aseets/icons/2.svg";
+import svg3 from "../Assets/adv-aseets/icons/3.svg";
+import svg4 from "../Assets/adv-aseets/icons/4.svg";
+import svg5 from "../Assets/adv-aseets/icons/5.svg";
+import svg6 from "../Assets/adv-aseets/icons/6.svg";
 
 import "./HomePage.css";
 
@@ -19,10 +23,18 @@ const HomePage = () => {
       </div>
 
       <div className="homepage-navbar">
-        <Svg1 />
+        <img src={svg1} />
         YENİ! Kore
-        <Svg2 />
-        Pizza Burger Kızartmalar Fast Food Gazlı İçecek
+        <img src={svg2} />
+        Pizza
+        <img src={svg3} />
+        Burger
+        <img src={svg4} />
+        Kızartmalar
+        <img src={svg5} />
+        Fast Food
+        <img src={svg6} />
+        Gazlı İçecek
       </div>
 
       <div className="homepage-parent-div">
