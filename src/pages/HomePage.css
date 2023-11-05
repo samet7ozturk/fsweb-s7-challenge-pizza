@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.homepage-header {
+  margin: 0;
+  padding: 0;
+  background-image: url("../Assets/mvp-banner.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.homepage-header h1 {
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.homepage-header h2 {
+  font-family: "Quattrocento", sans-serif;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: xx-large;
+}
+
+.homepage-header p {
+  font-family: "Satisfy", sans-serif;
+  color: yellow;
+  text-align: center;
+  margin: 16px 0 0 0;
+}
+
+.order-button1 {
+  display: inline-block;
+  padding: 15px 0;
+  margin-top: 20px;
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.homepage-parent-div {
+  background-color: #faf7f2;
+  display: flex;
+}
+
+.homepage-div1 {
+  background-image: url(../Assets/adv-aseets/kart-1.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  min-height: 500px;
+  min-width: 650px;
+  flex-direction: column;
+}
+
+.order-button2 {
+  display: inline-block;
+  padding: 15px 0;
+  margin-top: 20px;
+  background-color: white;
+  color: #ce2829;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.homepage-div2 {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 500px;
+  min-width: 635px;
+}
+
+.homepage-div3 {
+  background-image: url(../Assets/adv-aseets/kart-2.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  max-height: 250px;
+  min-width: 635px;
+}
+
+.homepage-div4 {
+  background-image: url(../Assets/adv-aseets/kart-3.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  max-height: 250px;
+  min-width: 635px;
+}

@@ -16,7 +16,7 @@ const PriceCalculation = ({ boyut, kalinlik, ekMalzeme, start = 85.5 }) => {
   };
 
   useEffect(() => {
-    if (boyut === "küçük" && kalinlik == "ince") {
+    if (boyut === "küçük" && kalinlik === "ince") {
       setToplamFiyat((adet * fiyat * 0.6 + ekMalzemeFiyati).toFixed(2));
     } else if (boyut === "küçük" && kalinlik === "orta") {
       setToplamFiyat((adet * fiyat * 0.7 + ekMalzemeFiyati).toFixed(2));
@@ -50,9 +50,11 @@ const PriceCalculation = ({ boyut, kalinlik, ekMalzeme, start = 85.5 }) => {
           Arttır
         </button>
       </div>
-      <h2>Sipariş Toplamı</h2>
-      Seçimler{ekMalzemeFiyati}
-      Toplam{toplamFiyat}
+      <div>
+        <h2>Sipariş Toplamı</h2>
+        Seçimler{ekMalzemeFiyati}
+        Toplam{toplamFiyat}
+      </div>
     </>
   );
 };

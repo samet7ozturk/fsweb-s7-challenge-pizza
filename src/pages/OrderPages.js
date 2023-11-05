@@ -234,8 +234,8 @@ const OrderPage = () => {
       <label>
         <input
           type="checkbox"
-          checked={checked.checkbox}
-          onChange={() => handleCheckboxChange("checkbox")}
+          checked={checked.checkbox17}
+          onChange={() => handleCheckboxChange("checkbox17")}
         />
         Kabak
       </label>
