@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
 
 .homepage-header {
   margin: 0;
@@ -13,6 +14,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
+  align-items: center;
 }
 
 .homepage-header h1 {
@@ -22,8 +24,7 @@
 }
 
 .homepage-header h2 {
-  font-family: "Quattrocento", sans-serif;
-  font-weight: 400;
+  font-family: "Bebas Neue";
   color: white;
   text-align: center;
   margin: 0;
@@ -39,7 +40,7 @@
 
 .order-button1 {
   display: inline-block;
-  padding: 15px 0;
+  padding: 15px 20px;
   margin-top: 20px;
   background-color: yellow;
   color: black;
@@ -48,24 +49,54 @@
   border: none;
   border-radius: 30px;
   cursor: pointer;
+  width: auto;
+  justify-content: center;
 }
 
-.homepage-parent-div {
+.homepage-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5px 0;
+}
+
+.svg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.svg:hover {
+  color: white;
+  background-color: #ce2829;
+  border-radius: 20px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.homepage-background {
+  background-color: #faf7f2;
+}
+
+.homepage-parent-div1 {
   background-color: #faf7f2;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+  gap: 1rem;
 }
 
 .homepage-div1 {
   background-image: url(../Assets/adv-aseets/kart-1.png);
   color: white;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  min-height: 500px;
-  min-width: 650px;
-  flex-direction: column;
+  border-radius: 10px;
 }
 
 .order-button2 {
@@ -84,30 +115,177 @@
 .homepage-div2 {
   display: flex;
   flex-wrap: wrap;
-  min-height: 500px;
-  min-width: 635px;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .homepage-div3 {
   background-image: url(../Assets/adv-aseets/kart-2.png);
   color: white;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  max-height: 250px;
-  min-width: 635px;
+  background-position: center;
+  border-radius: 10px;
 }
 
 .homepage-div4 {
   background-image: url(../Assets/adv-aseets/kart-3.png);
   color: white;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  max-height: 250px;
-  min-width: 635px;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.flex1 {
+  flex: 1 1;
+}
+.flex2 {
+  flex: 1 1;
+}
+
+.centertext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centertext p {
+  font-family: "Satisfy", sans-serif;
+  color: #ce2829;
+  margin: 2rem 0 0 0;
+}
+
+.centertext h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: black;
+  margin-top: 0.5rem;
+}
+
+.homepage-parent-div2 {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0 4rem 0;
+}
+
+.homepage-div5 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.homepage-div5 h2 {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.homepage-div5 p {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+}
+
+.homepage-div5-2 {
+  display: flex;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.homepage-div5-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.homepage-div6 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.homepage-div6 h2 {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.homepage-div6 p {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+}
+
+.homepage-div7 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.homepage-div7 h2 {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.homepage-div7 p {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+}
+
+.homepage-footer {
+  background-color: #292929;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+}
+
+.homepage-footer h3 {
+  margin: 4rem 0;
+}
+
+.homepage-icon p {
+  padding-left: 10px;
+  margin: 1.3rem 0;
+}
+
+.homepage-footer1 {
+  display: flex;
+  min-width: 550px;
+  justify-content: space-evenly;
+}
+
+.homepage-footer2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+}
+
+.homepage-ins {
+  margin-bottom: -1rem;
+}
+
+.homepage-footer-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.homepage-icon {
+  display: flex;
+  align-items: center;
 }
