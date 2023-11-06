@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700&display=swap");
 
 .homepage-header {
   margin: 0;
@@ -9,7 +9,7 @@
   background-image: url("../Assets/mvp-banner.png");
   background-size: cover;
   background-position: center;
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -24,11 +24,12 @@
 }
 
 .homepage-header h2 {
-  font-family: "Bebas Neue";
+  font-family: "Barlow";
+  font-weight: 300;
   color: white;
   text-align: center;
   margin: 0;
-  font-size: xx-large;
+  font-size: 2.5rem;
 }
 
 .homepage-header p {
@@ -57,20 +58,23 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 5px 0;
+  padding: 1rem 0;
 }
 
 .svg {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding: 10px 20px;
+  margin: 5px 5px;
+  background-color: white;
+  border-radius: 30px;
 }
 
 .svg:hover {
   color: white;
   background-color: #ce2829;
-  border-radius: 20px;
-  padding: 0 20px;
+  border-radius: 30px;
   cursor: pointer;
 }
 
@@ -99,10 +103,42 @@
   border-radius: 10px;
 }
 
+.homepage-div1-h1 {
+  margin-top: 1.5rem;
+  font-size: 25px;
+  font-family: "Barlow";
+}
+
+.homepage-div1 h1 {
+  margin: 0;
+}
+
+.homepage-div3-h1 {
+  margin: 1.5rem 0;
+  font-family: "Barlow";
+}
+
+.homepage-div3 h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.homepage-div4-h1 {
+  margin: 1.5rem 0;
+  font-family: "Barlow";
+}
+
+.homepage-div4 h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
 .order-button2 {
   display: inline-block;
-  padding: 15px 0;
-  margin-top: 20px;
+  padding: 10px 15px;
+  margin: 0 0 2rem 1.5rem;
   background-color: white;
   color: #ce2829;
   text-decoration: none;
@@ -110,6 +146,9 @@
   border: none;
   border-radius: 30px;
   cursor: pointer;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 0.8rem;
 }
 
 .homepage-div2 {
@@ -252,6 +291,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   color: white;
+  font-family: "Barlow";
 }
 
 .homepage-footer h3 {
@@ -267,6 +307,16 @@
   display: flex;
   min-width: 550px;
   justify-content: space-evenly;
+}
+
+.homepage-footer1 h1 {
+  font-family: "Londrina Solid";
+  font-weight: 400;
+  margin: 0;
+}
+
+.homepage-footer1-h1 {
+  margin: 3rem 0 1rem 0;
 }
 
 .homepage-footer2 {

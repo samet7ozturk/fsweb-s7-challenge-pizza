@@ -112,7 +112,7 @@ const OrderPage = () => {
       </select>
 
       <p>Ek Malzemeler</p>
-      <p>En fazla 10 malzeme seçebilirsiniz.</p>
+      <p>En fazla 10 malzeme seçebilirsiniz. 5₺</p>
 
       <label>
         <input

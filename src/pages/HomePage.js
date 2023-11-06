@@ -52,8 +52,10 @@ const HomePage = () => {
       <div className="homepage-background">
         <div className="homepage-parent-div1">
           <div className="homepage-div1 flex1">
-            <h1>Özel</h1>
-            <h1>Lezzetus</h1>
+            <div className="homepage-div1-h1">
+              <h1>Özel</h1>
+              <h1>Lezzetus</h1>
+            </div>
             <p>Position Absolute Acı Burger</p>
             <Link to="/order-page" className="order-button2">
               SİPARİŞ VER
@@ -62,16 +64,20 @@ const HomePage = () => {
 
           <div className="homepage-div2 flex2">
             <div className="homepage-div3">
-              <h1>Hackathlon</h1>
-              <h1>Burger Menü</h1>
+              <div className="homepage-div3-h1">
+                <h1>Hackathlon</h1>
+                <h1>Burger Menü</h1>
+              </div>
               <Link to="/order-page" className="order-button2">
                 SİPARİŞ VER
               </Link>
             </div>
 
             <div className="homepage-div4">
-              <h1>Çoooook hızlı</h1>
-              <h1>npm gibi kurye</h1>
+              <div className="homepage-div4-h1">
+                <h1>Çoooook hızlı</h1>
+                <h1>npm gibi kurye</h1>
+              </div>
               <Link to="/order-page" className="order-button2">
                 SİPARİŞ VER
               </Link>
@@ -159,8 +165,10 @@ const HomePage = () => {
       <div className="homepage-footer">
         <div className="homepage-footer1">
           <div>
-            <h1>Teknolojik</h1>
-            <h1>Yemekler</h1>
+            <div className="homepage-footer1-h1">
+              <h1>Teknolojik</h1>
+              <h1>Yemekler</h1>
+            </div>
             <div className="homepage-icon">
               <img src={require("../Assets/adv-aseets/icons/icon-1.png")} />
               <p>341 Londonderry Road, Istanbul Türkiye</p>
