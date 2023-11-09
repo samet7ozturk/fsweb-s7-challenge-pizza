@@ -1,0 +1,58 @@
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pricecalculation-button {
+  display: flex;
+  max-height: 25px;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.pricecalculation-button1 {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 1.5rem;
+  background-color: #faf7f2;
+}
+
+.pricecalculation-button2 {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 1.5rem;
+  background-color: #faf7f2;
+}
+
+.pricecalculation-button p {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #faf7f2;
+  background-color: #faf7f2;
+  text-align: center;
+}
+
+.pricecalculation-summary {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #faf7f2;
+  padding: 2rem;
+  margin-top: 0.6rem;
+  background-color: #faf7f2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.pricecalculation-secim {
+  display: flex;
+  justify-content: space-between;
+  min-width: 270px;
+  padding: 0.5rem 0;
+}

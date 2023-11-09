@@ -1,0 +1,208 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.orderpage-header {
+  background-color: #ce2829;
+  text-align: center;
+  color: white;
+}
+
+.orderpage-header h1 {
+  margin: 0;
+  padding: 1rem;
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 400;
+}
+
+.orderpage-banner {
+  background-color: #faf7f2;
+  display: flex;
+  flex-direction: column;
+  padding: 0 25% 2rem;
+}
+
+.orderpage-banner-img {
+  display: flex;
+  justify-content: center;
+}
+
+.orderpage-banner a {
+  font-family: "Barlow";
+  text-decoration: none;
+}
+
+.orderpage-banner p {
+  margin: 0;
+  font-family: "Barlow";
+}
+
+.orderpage-banner h2 {
+  font-family: "Barlow";
+}
+
+nav {
+  margin: 3rem 0;
+  display: flex;
+}
+
+.orderpage-section1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.orderpage-section1 p {
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.orderpage-section1 label {
+  font-family: "Barlow";
+}
+
+.orderpage-section2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.orderpage-section2 p {
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.orderpage-section2 span {
+  font-family: "Barlow";
+  padding-bottom: 1rem;
+}
+
+.ekMalzemeler {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ekMalzemeler label {
+  display: flex;
+  align-items: center;
+  width: 11rem;
+  height: 3rem;
+  font-family: "Barlow";
+}
+
+.orderpage-banner-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderpage-banner-p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orderpage-banner-p p {
+  margin: 0 2rem;
+}
+
+form {
+  padding: 0 25% 10rem;
+}
+
+.orderpage-summary {
+  display: flex;
+  flex-direction: column;
+  font-family: "Barlow";
+}
+
+.orderpage-summary h2 {
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.orderpage-submitbutton {
+  padding: 0.5rem 0;
+  background-color: #fdc913;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  font-family: "Barlow";
+  font-weight: 500;
+  width: 335.6px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.orderpage-size {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.orderpage-size label {
+  padding: 0.5rem 0;
+}
+
+.orderpage-note {
+  padding-bottom: 2rem;
+}
+
+.orderpage-note input {
+  background-color: #faf7f2;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  min-width: 94%;
+}
+
+.orderpage-note p {
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.orderpage-footer {
+  background-color: #292929;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  font-family: "Barlow Condensed";
+}
+
+.orderpage-footer1 {
+  display: flex;
+  min-width: 550px;
+  justify-content: space-evenly;
+}
+
+.orderpage-footer1 h1 {
+  font-family: "Londrina Solid";
+  font-weight: 400;
+  margin: 0;
+}
+
+.orderpage-footer1-h1 {
+  margin: 3rem 0 1rem 0;
+}
+
+.orderpage-footer h3 {
+  margin: 4rem 0;
+}
+
+.orderpage-footer2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+}
+
+.orderpage-ins {
+  margin-bottom: -1rem;
+}

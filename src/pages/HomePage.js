@@ -17,34 +17,36 @@ const HomePage = () => {
         <p>fırsatı kaçırma</p>
         <h2>KOD ACIKTIRIR</h2>
         <h2>PİZZA DOYURUR</h2>
-        <Link to="/order-page" className="order-button1">
-          <span>ACIKTIM</span>
-        </Link>
+        <button data-cy="orderpage-button">
+          <Link to="/order-page" className="order-button1">
+            <span>ACIKTIM</span>
+          </Link>
+        </button>
       </div>
 
       <div className="homepage-navbar">
         <div className="svg">
-          <img src={svg1} />
+          <img src={svg1} alt="svg1" />
           YENİ! Kore
         </div>
         <div className="svg">
-          <img src={svg2} />
+          <img src={svg2} alt="svg2" />
           Pizza
         </div>
         <div className="svg">
-          <img src={svg3} />
+          <img src={svg3} alt="svg3" />
           Burger
         </div>
         <div className="svg">
-          <img src={svg4} />
+          <img src={svg4} alt="svg4" />
           Kızartmalar
         </div>
         <div className="svg">
-          <img src={svg5} />
+          <img src={svg5} alt="svg5" />
           Fast Food
         </div>
         <div className="svg">
-          <img src={svg6} />
+          <img src={svg6} alt="svg6" />
           Gazlı İçecek
         </div>
       </div>
@@ -75,7 +77,9 @@ const HomePage = () => {
 
             <div className="homepage-div4">
               <div className="homepage-div4-h1">
-                <h1>Çoooook hızlı</h1>
+                <h1>
+                  <span>Çoooook</span> hızlı
+                </h1>
                 <h1>npm gibi kurye</h1>
               </div>
               <Link to="/order-page" className="order-button2">
@@ -92,27 +96,27 @@ const HomePage = () => {
 
         <div className="homepage-navbar">
           <div className="svg">
-            <img src={svg1} />
+            <img src={svg1} alt="svg1" />
             YENİ! Kore
           </div>
           <div className="svg">
-            <img src={svg2} />
+            <img src={svg2} alt="svg2" />
             Pizza
           </div>
           <div className="svg">
-            <img src={svg3} />
+            <img src={svg3} alt="svg3" />
             Burger
           </div>
           <div className="svg">
-            <img src={svg4} />
+            <img src={svg4} alt="svg4" />
             Kızartmalar
           </div>
           <div className="svg">
-            <img src={svg5} />
+            <img src={svg5} alt="svg5" />
             Fast Food
           </div>
           <div className="svg">
-            <img src={svg6} />
+            <img src={svg6} alt="svg6" />
             Gazlı İçecek
           </div>
         </div>
@@ -120,7 +124,10 @@ const HomePage = () => {
         <div className="homepage-parent-div2">
           <div className="homepage-div5">
             <div className="homepage-div5-2">
-              <img src={require("../Assets/adv-aseets/food-1.png")} />
+              <img
+                src={require("../Assets/adv-aseets/food-1.png")}
+                alt="food1"
+              />
             </div>
             <div className="homepage-div5-2">
               <h2>Terminal Pizza</h2>
@@ -134,7 +141,10 @@ const HomePage = () => {
 
           <div className="homepage-div6">
             <div className="homepage-div5-2">
-              <img src={require("../Assets/adv-aseets/food-2.png")} />
+              <img
+                src={require("../Assets/adv-aseets/food-2.png")}
+                alt="food2"
+              />
             </div>
             <div className="homepage-div5-2">
               <h2>Position Absolute Acı Pizza</h2>
@@ -148,7 +158,10 @@ const HomePage = () => {
 
           <div className="homepage-div7">
             <div className="homepage-div5-2">
-              <img src={require("../Assets/adv-aseets/food-3.png")} />
+              <img
+                src={require("../Assets/adv-aseets/food-3.png")}
+                alt="food3"
+              />
             </div>
             <div className="homepage-div5-2">
               <h2>useEffect Tavuklu Burger</h2>
@@ -170,15 +183,24 @@ const HomePage = () => {
               <h1>Yemekler</h1>
             </div>
             <div className="homepage-icon">
-              <img src={require("../Assets/adv-aseets/icons/icon-1.png")} />
+              <img
+                src={require("../Assets/adv-aseets/icons/icon-1.png")}
+                alt="icon1"
+              />
               <p>341 Londonderry Road, Istanbul Türkiye</p>
             </div>
             <div className="homepage-icon">
-              <img src={require("../Assets/adv-aseets/icons/icon-2.png")} />
+              <img
+                src={require("../Assets/adv-aseets/icons/icon-2.png")}
+                alt="icon2"
+              />
               <p>aciktim@teknolojikyemekler.com</p>
             </div>
             <div className="homepage-icon">
-              <img src={require("../Assets/adv-aseets/icons/icon-3.png")} />
+              <img
+                src={require("../Assets/adv-aseets/icons/icon-3.png")}
+                alt="icon3"
+              />
               <p>+90 216 123 45 67</p>
             </div>
           </div>
@@ -197,12 +219,30 @@ const HomePage = () => {
             <h3>Instagram</h3>
           </div>
           <div className="homepage-footer-img">
-            <img src={require("../Assets/adv-aseets/insta/li-0.png")} />
-            <img src={require("../Assets/adv-aseets/insta/li-1.png")} />
-            <img src={require("../Assets/adv-aseets/insta/li-2.png")} />
-            <img src={require("../Assets/adv-aseets/insta/li-3.png")} />
-            <img src={require("../Assets/adv-aseets/insta/li-4.png")} />
-            <img src={require("../Assets/adv-aseets/insta/li-5.png")} />
+            <img
+              src={require("../Assets/adv-aseets/insta/li-0.png")}
+              alt="png1"
+            />
+            <img
+              src={require("../Assets/adv-aseets/insta/li-1.png")}
+              alt="png2"
+            />
+            <img
+              src={require("../Assets/adv-aseets/insta/li-2.png")}
+              alt="png3"
+            />
+            <img
+              src={require("../Assets/adv-aseets/insta/li-3.png")}
+              alt="png4"
+            />
+            <img
+              src={require("../Assets/adv-aseets/insta/li-4.png")}
+              alt="png5"
+            />
+            <img
+              src={require("../Assets/adv-aseets/insta/li-5.png")}
+              alt="png6"
+            />
           </div>
         </div>
       </div>

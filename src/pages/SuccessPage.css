@@ -1,0 +1,25 @@
+main {
+  background-color: #ce2829;
+  min-height: 96vh;
+  text-align: center;
+  color: white;
+}
+
+main a {
+  text-decoration: none;
+  font-family: "Londrina Solid";
+  font-weight: 500;
+  color: white;
+  font-size: 30px;
+}
+
+.successpage-link {
+  padding: 3rem 0 10rem;
+}
+
+main h2 {
+  font-family: "Barlow Condensed";
+  font-weight: 200;
+  font-size: 40px;
+  margin: 0;
+}
